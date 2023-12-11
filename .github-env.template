@@ -1,8 +1,10 @@
-DATABASE_URL=mysql://{user}:{password}@{host}:4000
-USER_LOGIN=github_login
+GITHUB_REPO_DATABASE=test
+GITHUB_PERSONAL_DATABASE=github_personal
+USER_LOGIN: cmuc24
+REPO_FULL_NAME: runtipi/runtipi
+
+# DATABASE_URL=mysql://{user}:{password}@{host}:4000
+# USER_LOGIN=github_login
 
 # Optional
-REPO_FULL_NAME=github_repo_name1,github_repo_name2,...
-GITHUB_REPO_DATABASE=github_repos
-GITHUB_PERSONAL_DATABASE=github_personal
 JWT_MAX_AGE=1800 #seconds
