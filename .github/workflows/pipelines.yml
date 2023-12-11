@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  GITHUB_REPO_DATABASE: test
+  GITHUB_REPO_DATABASE: github_repos
   GITHUB_PERSONAL_DATABASE: github_personal
   USER_LOGIN: cmuc24
   REPO_FULL_NAME: runtipi/runtipi
